@@ -1,0 +1,10 @@
+Media/Textures/Desert.png
+Media/Textures/BlankMusicSheet.png
+Media/Textures/ProgressNotes.png
+Media/Textures/LoadingScreenBG.png
+Media/Textures/ArrowUp.png
+Media/Textures/ArrowDown.png
+Media/Textures/ArrowLeft.png
+Media/Textures/ArrowRight.png
+Media/Textures/ArrowsContainer.png
+Media/Textures/Fade.png

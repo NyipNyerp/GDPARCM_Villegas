@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{93fb5a03-a153-477b-b196-ae09813bad5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PARCM_Engine">
+      <UniqueIdentifier>{ec59dc50-d6ad-4c31-88dd-20e1cd6c1b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PARCM_Engine\Raytracing">
+      <UniqueIdentifier>{7e5b9f8e-8414-4619-9a36-5bc86479ee6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PARCM_Engine\BaseRunner">
+      <UniqueIdentifier>{f106032a-5333-4c15-a7b6-cee26abe2525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PARCM_Engine\Threading">
+      <UniqueIdentifier>{44dc1ecb-d86a-4698-96e6-a967b8f6a5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PARCM_Engine\BaseRunner\GameObjects">
+      <UniqueIdentifier>{f5ace674-326f-491e-bca7-f03111c982d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PARCM_Engine\BaseRunner\Graphics">
+      <UniqueIdentifier>{58718dad-f29b-425c-a6e6-a28073366f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PARCM_Engine\BaseRunner\Interfaces">
+      <UniqueIdentifier>{cc486558-30ad-4eea-af07-349616aea312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PARCM_Engine\BaseRunner\Threads">
+      <UniqueIdentifier>{0627a076-57e1-4d9c-8a98-1c0f320dffe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PARCM_Engine\BaseRunner\GameObjects\TextObjects">
+      <UniqueIdentifier>{99220802-330f-48cf-aab5-6515d89a144b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PARCM_Engine\BaseRunner\GameObjects\ImageObjects">
+      <UniqueIdentifier>{072914a1-6f0b-4d23-8d84-ffabb0524a12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AGameObject.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtils.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureDisplay.cpp">
+      <Filter>PARCM_Engine\BaseRunner\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>PARCM_Engine\BaseRunner\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>PARCM_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RTImage.cpp">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseRunner.cpp">
+      <Filter>PARCM_Engine\BaseRunner</Filter>
+    </ClCompile>
+    <ClCompile Include="IETThread.cpp">
+      <Filter>PARCM_Engine\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="RayTracerThread.cpp">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="Semaphore.cpp">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrageThreads.cpp">
+      <Filter>PARCM_Engine\BaseRunner\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolWorkerThread.cpp">
+      <Filter>PARCM_Engine\BaseRunner\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamAssetLoader.cpp">
+      <Filter>PARCM_Engine\BaseRunner\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>PARCM_Engine\BaseRunner\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="AuditionGame.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideText.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\TextObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCounter.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\TextObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleText.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\TextObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BGObject.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\ImageObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeScreen.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\ImageObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="IconObject.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\ImageObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageObject.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\ImageObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoObject.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\ImageObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreText.cpp">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\TextObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AGameObject.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureDisplay.h">
+      <Filter>PARCM_Engine\BaseRunner\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>PARCM_Engine\BaseRunner\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>PARCM_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="hittable.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="hittable_list.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="rtweekend.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="interval.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="RTImage.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRunner.h">
+      <Filter>PARCM_Engine\BaseRunner</Filter>
+    </ClInclude>
+    <ClInclude Include="IETThread.h">
+      <Filter>PARCM_Engine\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="RayTracerThread.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphore.h">
+      <Filter>PARCM_Engine\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="IExecutionEvent.h">
+      <Filter>PARCM_Engine\BaseRunner\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IWorkerAction.h">
+      <Filter>PARCM_Engine\BaseRunner\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrageThreads.h">
+      <Filter>PARCM_Engine\BaseRunner\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolWorkerThread.h">
+      <Filter>PARCM_Engine\BaseRunner\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamAssetLoader.h">
+      <Filter>PARCM_Engine\BaseRunner\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>PARCM_Engine\BaseRunner\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="AuditionGame.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideText.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\TextObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCounter.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\TextObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleText.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\TextObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BGObject.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\ImageObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeScreen.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\ImageObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="IconObject.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\ImageObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageObject.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\ImageObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoObject.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\ImageObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreText.h">
+      <Filter>PARCM_Engine\BaseRunner\GameObjects\TextObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
