@@ -1,6 +1,5 @@
 *.ipch
 RT Images/
-SFML-2.6.1/
 OPENCV/
 GDPARCM_Villegas/Media/Dota_Icons/
 opencv_world490d.dll
